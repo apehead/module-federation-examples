@@ -4044,10 +4044,13 @@
     prop-types "^15.7.2"
     react-is "^16.8.0 || ^17.0.0"
 
-"@module-federation/node@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@module-federation/node/-/node-0.0.1.tgz#e37ef6515cae0ea37d2a86dabed18b91dff341aa"
-  integrity sha512-YQW2w5Knh9L95sOK6oRUDqlpf0U+IdYah3Rqmmeee2+Ny7XTPUdqOGwKgjKIGz3PnD4dLva2q94eUmuawBAtYg==
+"@module-federation/node@0.4.4":
+  version "0.4.4"
+  resolved "https://registry.npmjs.org/@module-federation/node/-/node-0.4.4.tgz#4a215dc552c7bd74f4c54eeddf5ce77eac5a0d40"
+  integrity sha512-8NkMciHeQXf6mOLG2LZoeLiTgSzAp+nnEUt5qC/V+huH+TqE/saLKA8A8IiN5M3XTU9J4bkeGIZ4yaGt3NMkXw==
+  dependencies:
+    node-fetch "^2.6.7"
+    tslib "^2.3.0"
 
 "@module-federation/typescript@^0.1.8":
   version "0.1.10"
@@ -13870,7 +13873,7 @@ node-fetch-npm@^2.0.2:
     json-parse-better-errors "^1.0.0"
     safe-buffer "^5.1.1"
 
-node-fetch@^2.5.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
+node-fetch@2.6.7, node-fetch@^2.5.0, node-fetch@^2.6.1, node-fetch@^2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
